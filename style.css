@@ -1,0 +1,800 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.headerlist {
+    width: 550px;
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Section 1 css */
+.msec1div1 {
+    background-image: url(/bubbles-dktp.svg);
+    height: 750px;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #bf28bc;
+}
+
+.msec1div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 330px;
+    left: 650px;
+}
+
+.msec1div2 div {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    width: 750px;
+}
+
+.msec1div2 button {
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+/* Section 2 CSS */
+.msec2 {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msec2div1 {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.msec2div2 {
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    justify-content: space-around;
+    /* margin-left: 60px; */
+
+}
+
+.msec2div2div1,
+.msec2div2div1,
+.msec2div2div1,
+.msec2div2div1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.msec2div2div1div2,
+.msec2div2div2div2,
+.msec2div2div3div2,
+.msec2div2div4div2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.msec2div2div1div3,
+.msec2div2div2div3,
+.msec2div2div3div3,
+.msec2div2div3div3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    width: 280px;
+}
+
+/* section 3 css */
+.msec3 {
+    height: 650px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.msec3div1 {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+/* section 4 css */
+.msec4 {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msec4div1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.msec4div2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    left: 150px;
+
+
+    /* this is where occur happens */
+
+
+}
+
+.msec4div2 hr {
+    background-color: rgb(255, 254, 254);
+
+    width: 80vw;
+}
+
+
+.msec4div2div1,
+.msec4div2div2,
+.msec4div2div3,
+.msec4div2div4 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 50px;
+
+
+
+}
+
+.msec4div2div1 span {
+    position: relative;
+    left: 1005px;
+
+}
+
+.msec4div2div2 span {
+    position: relative;
+    left: 885px;
+}
+
+.msec4div2div3 span {
+    position: relative;
+    left: 855px;
+}
+
+.msec4div2div4 span {
+    position: relative;
+    left: 985px;
+}
+
+/* section 5 css */
+.msec5 {
+    height: 650px;
+}
+
+.msec5div1 {
+    background-image: url(/sec-5.svg);
+    height: 650px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #b625c0;
+}
+
+.msec5div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 400px;
+
+
+
+}
+
+.msec5div2div1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+}
+
+.msec5div2button {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* footer css */
+
+
+
+.fsec1 {
+    display: flex;
+    background-color: black;
+    height: 550px;
+    justify-content: space-around;
+
+
+
+}
+
+.fsec1div1,
+.fsec1div2,
+.fsec1div3,
+.fsec1div4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+    align-items: start;
+}
+
+.fsec1div5 {
+    font-size: 45px;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.fsec1div2 div {
+
+    margin-top: 25px;
+}
+
+.fsec1div3 div {
+    margin-top: 25px;
+}
+
+.fsec1div4 div {
+    margin-top: 25px;
+}
+
+.fsec1div5 div {
+
+    margin-left: 25px;
+}
+
+.fsec2div1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 90px;
+}
+.msec2div2div4div3{
+    width: 250px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.burger{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    display: none;
+}
+.line{
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .burger{
+    
+    display: block;
+    padding: 25px 0px;
+    
+}
+    .spotifylogo {
+        scale: 0.8;
+        margin-left: 50px;
+        padding-top: 4px;
+        
+    }
+
+    .headerlist li {
+        font-size: 3vw;
+    }
+
+    .premium,
+    .support,
+    .signup {
+        display: none;
+    }
+
+    .headerlist {
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    .headerlist li {
+        margin-left: 10px;
+    }
+
+    .download {
+        margin-right: 10px;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msec1div1 {
+        height: 600px;
+        width: 100vw;
+    }
+
+    .msec1div2 div {
+        position: absolute;
+        left: -600px;
+        top: -50px;
+        color: white;
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .msec1div2 button {
+        position: absolute;
+        height: 60px;
+        font-size: 18px;
+        width: 170px;
+        top: 250px;
+        color: black;
+        left: -600px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    /* .msec2div2div1div1 img{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 50px;
+    }
+    .msec2div2div1div2 img{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 50px;
+    }
+    .msec2div2div1div3 img{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 50px;
+    } .msec2div2div1div4 img{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 50px;
+    } */
+
+    .msec2div2div1 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        left: 20px;
+        top: 850px;
+
+
+    }
+
+    .msec2div2div2 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        left: 220px;
+        top: 850px;
+
+    }
+
+    .msec2div2div3 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        left: 20px;
+        top: 1200px;
+    }
+
+    .msec2div2div4 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        left: 220px;
+        top: 1200px;
+    }
+
+
+
+    /* This is where i cant control now */
+
+
+    .msec2 {
+        height: 600px;
+    }
+
+    
+    
+    .msec2div2div1div2{
+        
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+   
+    }
+    .msec2div2div2div2{
+        font-size: 12px;
+        width: 140px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    }
+    .msec2div2div3div2{
+        font-size: 12px;
+        width:140px;
+        position: absolute;
+        top: -50px;
+        left: 10px;
+    }
+    .msec2div2div4div2{
+        font-size: 12px;
+        width: 130px;
+        position: absolute;
+        top: -50px;
+        left: 0px;
+    }
+    .msec2div2div1div3{
+        font-size: 10px;
+        width: 150px;
+        position: absolute;
+        left: 10px;
+        top: 110px;
+        font-weight: 400;
+        text-align: center;
+        
+        
+    }
+    .msec2div2div2div3{
+        font-size: 10px;
+        width: 150px;
+        position: absolute;
+        left: 0px;
+        top: 110px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .msec2div2div3div3{
+        font-size: 10px;
+        width: 150px;
+        position: absolute;
+        left: 5px;
+        top: -20px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .msec2div2div4div3{
+        font-size: 10px;
+        width: 150px;
+        position: absolute;
+        font-weight: 400;
+        top: -10px;
+        left: -10px;
+        text-align: center;
+
+    }
+    .msec2div2div2div1 img{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        left: 10px;
+    }
+    .msec2div2div1div1 img{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        left: 25px;
+    }
+    .msec2div2div3div1 img{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        left: 25px;
+        top: -130px;
+    }
+    .msec2div2div4div1 img{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        left: 10px;
+        top: -130px;
+    }
+    .msec3div1h22{
+        font-size: 25px;
+    }
+    .msec4div1{
+        font-size: 35px;
+    }
+    .msec4div2div1{
+        font-size: 14px;
+        position: relative;
+        right: 110px;
+    }
+    .msec4div2div2{
+        font-size: 14px;
+        position: relative;
+        right: 110px;
+    }
+    .msec4div2div3{
+        font-size: 14px;
+        position: relative;
+        right: 110px;
+    }
+    .msec4div2div4{
+        font-size: 14px;
+        position: relative;
+        right: 110px;
+    }
+    .msec4div2div1 span i{
+        position: relative;
+        right: 900px;
+    }
+    .msec4div2div2 span i{
+        position: relative;
+        right: 840px;
+    }
+    .msec4div2div3 span i{
+        position: relative;
+        right: 825px;
+    }
+    .msec4div2div4 span i{
+        position: relative;
+        right: 890px;
+    }
+    .msec4div2 hr{
+        position: relative;
+        right: 110px;
+    }
+    .msec4{
+        height: 500px;
+    }
+    .msec5div2div1{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+   .msec5div2button{
+    height: 50px;
+    font-size: 18px;
+    width: 180px;
+    margin-top: 50px;
+   }
+   .fsec1div1 div img{
+    height: 30px;
+    width: 90px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+   }
+   .fsec1div2{
+    position: relative;
+    top: 50px;
+    left: 10px;
+   }
+   .fsec1div3{
+    position: relative;
+    top: 50px;
+    left: 40px;
+   }
+   .fsec1div4{
+    position: relative;
+    top: 50px;
+    left: 70px;
+   }
+   .fsec1div2 div{
+    font-size: 12px;
+   }
+   .fsec1div2 h3{
+    font-size: 14px;
+   }
+   
+   .fsec1div3 div{
+    font-size: 12px;
+    
+   }
+   .fsec1div3 h3{
+    font-size: 14px;
+   }
+   .fsec1div4 div{
+    font-size: 12px;
+    width: 100px;
+   }
+   .fsec1div4 h3{
+    font-size: 14px;
+   }
+   .fsec1div5{
+    position: relative;
+    left: -120px;
+    font-size: 26px;
+    top: -55px;
+}
+.fsec2div1{
+    font-size: 12px;
+}
+.msec2div1{
+    font-size: 32px;
+}
+   
+   
+}
+@media screen and (min-width:786px) and (max-width:1024px) {
+   
+   
+.spotifylogo {
+        
+        margin-left: 60px;
+        padding-top: 4px;
+        scale: 0.8;
+        
+    }
+
+    .msec1div2 div{
+        position: relative;
+        top: 00px;
+        left: -600px;
+        font-size: 60px;
+        color: white;
+        width: 600px;
+    }
+    .msec1div2 button{
+        position: relative;
+        top: 50px;
+        left: -600px;
+        font-size: 22px;
+        
+        
+    }
+    .msec2div2div1{
+        position: relative;
+        left: 220px;
+    }
+    .msec2div2div2{
+        position: relative;
+        left: 300px;
+    }
+    .msec2div2div3{
+        position: relative;
+        left: -350px;
+        top: 380px;
+    }
+    .msec2div2div4{
+        position: relative;
+        left: -250px;
+        top: 380px;
+    }
+    .msec2{
+        height: 1000px;
+    }
+    .msec4div2{
+        position: relative;
+        left: 70px;
+        
+    }
+    .msec4div2div1 span{
+        position: relative;
+        left: 285px;
+    }
+    .msec4div2div2 span{
+        position: relative;
+        left: 150px;
+    }
+    .msec4div2div3 span{
+        position: relative;
+        left: 115px;
+    }
+    .msec4div2div4 span{
+        position: relative;
+        left: 265px;
+    }
+
+
+
+
+
+
+}
+.headerlist li:hover{
+    color: #1dd25d;
+    cursor: pointer;
+}
+.msec4div2div1 :hover{
+    text-decoration: 2px underline;
+    
+}
+.msec4div2div2:hover{
+    text-decoration: 2px underline;
+}
+.msec4div2div4:hover{
+    text-decoration: 2px underline;
+}
+.msec4div2div3:hover{
+    text-decoration: 2px underline;
+}
+.fsec1div2 div:hover{
+    color: #1dd25d;
+    cursor: pointer;
+    scale: 1.03;
+}
+.fsec1div3 div:hover{
+    color: #1dd25d;
+    cursor: pointer;
+    scale: 1.03;
+}
+.fsec1div4 div:hover{
+    color: #1dd25d;
+    cursor: pointer;
+    scale: 1.03;
+}
+.fsec1div5 div:hover{
+    color: #1dd25d;
+    cursor: pointer;
+    scale: 1.01;
+}
+.fsec2div1:hover{
+    color: #1dd25d;
+    cursor: pointer;
+    scale: 1.01;
+}
+.msec1div2 button:hover{
+    scale: 1.1;
+}
+.msec5div2button:hover{
+    scale: 1.1;
+}
+
